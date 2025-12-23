@@ -682,12 +682,24 @@ video {
   width: 105px;
 }
 
+.w-\[106px\]{
+  width: 106px;
+}
+
 .w-\[120\.27px\]{
   width: 120.27px;
 }
 
 .w-\[125px\]{
   width: 125px;
+}
+
+.w-\[180px\]{
+  width: 180px;
+}
+
+.w-\[206px\]{
+  width: 206px;
 }
 
 .w-\[247px\]{
@@ -704,6 +716,10 @@ video {
 
 .w-\[320px\]{
   width: 320px;
+}
+
+.w-\[32px\]{
+  width: 32px;
 }
 
 .w-\[42\%\]{
@@ -724,22 +740,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[180px\]{
-  width: 180px;
-}
-
-.w-\[206px\]{
-  width: 206px;
-}
-
-.w-\[32px\]{
-  width: 32px;
-}
-
-.w-\[106px\]{
-  width: 106px;
 }
 
 .border-collapse{
@@ -770,6 +770,10 @@ video {
   flex-wrap: wrap;
 }
 
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
 .items-start{
   align-items: flex-start;
 }
@@ -798,6 +802,10 @@ video {
   gap: 60px;
 }
 
+.gap-16{
+  gap: 4rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -824,10 +832,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-16{
-  gap: 4rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -1931,6 +1935,11 @@ button[disabled="disabled"]:focus {
     line-height: 1;
   }
 
+  .sm\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .sm\:before\:top-258\.75::before{
     content: var(--tw-content);
     top: 1035px;
@@ -1998,6 +2007,14 @@ button[disabled="disabled"]:focus {
 }
 
 @media (min-width: 1024px){
+  .lg\:order-1{
+    order: 1;
+  }
+
+  .lg\:order-2{
+    order: 2;
+  }
+
   .lg\:h-125{
     height: 500px;
   }
@@ -2028,6 +2045,14 @@ button[disabled="disabled"]:focus {
 
   .lg\:w-78\.75{
     width: 315px;
+  }
+
+  .lg\:flex-nowrap{
+    flex-wrap: nowrap;
+  }
+
+  .lg\:gap-23\.75{
+    gap: 95px;
   }
 
   .lg\:py-25{
