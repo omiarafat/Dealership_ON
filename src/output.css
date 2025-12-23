@@ -770,10 +770,6 @@ video {
   flex-wrap: wrap;
 }
 
-.flex-nowrap{
-  flex-wrap: nowrap;
-}
-
 .items-start{
   align-items: flex-start;
 }
@@ -856,6 +852,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
@@ -1883,7 +1885,7 @@ button[disabled="disabled"]:focus {
 }
 
 .hover\:border-4:hover{
-  border-width: 4px;
+  border-width: 16px;
 }
 
 .hover\:border-\[\#F89344\]:hover{
@@ -2128,10 +2130,6 @@ button[disabled="disabled"]:focus {
 
   .xl\:flex-nowrap{
     flex-wrap: nowrap;
-  }
-
-  .xl\:gap-23\.75{
-    gap: 95px;
   }
 
   .xl\:py-30{
