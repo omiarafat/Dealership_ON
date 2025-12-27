@@ -246,6 +246,7 @@ export default {
                 'grapshadow': '0px 0px 8px 4px #00000014',
             },
             borderWidth: {
+              '1': '4px',
               '5': '20px',
               '4': '16px',
               '3.5': '14px',
