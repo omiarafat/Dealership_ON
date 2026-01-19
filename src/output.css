@@ -730,6 +730,10 @@ video {
   width: 657.64px;
 }
 
+.w-\[77\%\]{
+  width: 77%;
+}
+
 .w-\[930px\]{
   width: 930px;
 }
@@ -740,6 +744,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.max-w-\[687px\]{
+  max-width: 687px;
 }
 
 .border-collapse{
@@ -768,10 +776,6 @@ video {
 
 .flex-wrap{
   flex-wrap: wrap;
-}
-
-.flex-nowrap{
-  flex-wrap: nowrap;
 }
 
 .items-start{
@@ -850,6 +854,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
@@ -1917,10 +1927,6 @@ button[disabled="disabled"]:focus {
     height: 345px;
   }
 
-  .sm\:w-107\.5{
-    width: 430px;
-  }
-
   .sm\:w-60{
     width: 240px;
   }
@@ -1983,10 +1989,6 @@ button[disabled="disabled"]:focus {
     height: 375px;
   }
 
-  .md\:w-122\.5{
-    width: 490px;
-  }
-
   .md\:w-66\.25{
     width: 265px;
   }
@@ -2007,14 +2009,6 @@ button[disabled="disabled"]:focus {
 }
 
 @media (min-width: 1024px){
-  .lg\:order-1{
-    order: 1;
-  }
-
-  .lg\:order-2{
-    order: 2;
-  }
-
   .lg\:h-125{
     height: 500px;
   }
@@ -2031,16 +2025,12 @@ button[disabled="disabled"]:focus {
     height: 315px;
   }
 
-  .lg\:w-177\.5{
-    width: 710px;
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
-  .lg\:w-197\.5{
-    width: 790px;
-  }
-
-  .lg\:w-221\.75{
-    width: 887px;
+  .lg\:w-2\/5{
+    width: 40%;
   }
 
   .lg\:w-78\.75{
@@ -2110,10 +2100,6 @@ button[disabled="disabled"]:focus {
     height: 365px;
   }
 
-  .xl\:w-110{
-    width: 440px;
-  }
-
   .xl\:w-201{
     width: 804px;
   }
@@ -2128,10 +2114,6 @@ button[disabled="disabled"]:focus {
 
   .xl\:flex-nowrap{
     flex-wrap: nowrap;
-  }
-
-  .xl\:gap-23\.75{
-    gap: 95px;
   }
 
   .xl\:py-30{
@@ -2181,12 +2163,12 @@ button[disabled="disabled"]:focus {
     height: 340px;
   }
 
-  .\32xl\:w-171\.75{
-    width: 687px;
-  }
-
   .\32xl\:w-180{
     width: 720px;
+  }
+
+  .\32xl\:w-221\.75{
+    width: 887px;
   }
 
   .\32xl\:w-85{
