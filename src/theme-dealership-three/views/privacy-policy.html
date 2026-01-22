@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../output.css" rel="stylesheet"/>
+    <link href="../css/app.css" rel="stylesheet"/>
+    <title>Privacy and policy</title>
+</head>
+<body>
+    <header class="py-5 fixed top-0 left-0 w-full z-999">
+        <div class="main-container">
+            <div class="flex items-center justify-between gap-5">
+                <a href="#" class="max-w-40 w-40 min-h-7.5 max-h-13 h-full">
+                    <img class="w-full h-full" src="../images/logos/logo.svg" alt="logo">
+                </a>
+                <nav>
+                    <ul class="items-center justify-end text-sm xl:text-lg leading-none font-light hidden lg:flex gap-0.5" style="color: {{ $website->theme_colors['white'] ?? '#ffffff' }};">
+                        <li>
+                            <a href="home.html"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Home
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="{{ route('websites.about', $uid) }}"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                About us
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="stock.html"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Stock
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('websites.sell.car', $uid) }}"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Sell your car
+                            </a>
+                        </li>
+                        <li>
+                            <a href="finance.html"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Finance
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="privacy-policy.html"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Warranty
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('websites.delivery', $uid) }}"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Delivery
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="{{ route('websites.roadside.assistant', $uid) }}"
+                                class="block px-4 xl:px-6 py-3 xl:py-4.5 bg-transparent border-b-2 border-transparent rounded-xl duration-300 hover:text-thameThreeSecondary hover:font-normal hover:border-thameThreeSecondary active:text-thameThreeSecondary active:font-normal active:border-thameThreeSecondary">
+                                Roadside assistance
+                            </a>
+                        </li> -->
+                    </ul>
+                </nav>
+                <div class="w-fit flex items-center gap-8">
+                    <a href="{{ route('websites.contact', $uid) }}" 
+                        class="w-36 xl:w-39 h-11 xl:h-13 px-5 xl:px-6 py-3.25 text-sml xl:text-base font-medium text-white uppercase bg-thameThreePrimary/90 rounded-xl hidden lg:flex items-center gap-4 duration-300 hover:bg-thameThreePrimaryDark/90">
+                        Contact
+                        <svg class="fill-white duration-300" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 0C10.7 0 10.5 0.0999994 10.3 0.299999L0.3 10.3C-0.1 10.7 -0.1 11.3 0.3 11.7C0.7 12.1 1.3 12.1 1.7 11.7L11.7 1.7C12.1 1.3 12.1 0.699999 11.7 0.299999C11.5 0.0999994 11.3 0 11 0Z" fill=""/>
+                            <path d="M11 0H2C1.4 0 1 0.4 1 1C1 1.6 1.4 2 2 2H10V10C10 10.6 10.4 11 11 11C11.6 11 12 10.6 12 10V1C12 0.4 11.6 0 11 0Z" fill=""/>
+                        </svg>
+                    </a>
+                    <!-- Mobile -->
+                    <button class="size-8 lg:hidden">
+                        <img class="w-full h-full" src="../images/icons/menubar.svg" alt="icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="pt-50 pb-45 relative">
+        <div class="main-container">
+            <h2 class="legal-heading">
+                privacy and policy
+            </h2>
+            <div class="space-y-12 pt-12">
+                <div class="space-y-7">
+                    <h3 class="legal-title">
+                        1. Information We Collect
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="space-y-1 legal-text">
+                            <h4 class="font-bold">a. Personal Information</h4>
+                            <p>We may collect the following personal information when you use our services:</p>
+                            <ul class="list-disc pl-6.75 space-y-1">
+                                <li>Name</li>
+                                <li>Phone number</li>
+                                <li>Email address</li>
+                                <li>Address</li>
+                                <li>Identification or verification details (if required)</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-1 legal-text">
+                            <h4 class="font-bold">b. Usage Data</h4>
+                            <p>We automatically collect:</p>
+                            <ul class="list-disc pl-6.75 space-y-1">
+                                <li>Device information</li>
+                                <li>Browser type</li>
+                                <li>IP address</li>
+                                <li>Pages visited on our website</li>
+                                <li>Time and date of visits</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-1 legal-text">
+                            <h4 class="font-bold">c. Business Information</h4>
+                            <p>For dealership management purposes, we may collect:</p>
+                            <ul class="list-disc pl-6.75 space-y-1">
+                                <li>Vehicle inventory data</li>
+                                <li>Sales & customer records</li>
+                                <li>Payment or billing information</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">2. How We Use Your Information</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>We use the collected data to:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Provide and improve our services</li>
+                            <li>Maintain your account and dealership records</li>
+                            <li>Communicate with you regarding updates, support, or offers</li>
+                            <li>Ensure system security and prevent fraud</li>
+                            <li>Analyze platform performance for better service optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">3. Sharing of Information</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>We do not sell your personal data to third parties. <br> However, we may share data with:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Trusted service providers (hosting, payment gateways, analytics)</li>
+                            <li>Legal authorities (only when required by law)</li>
+                            <li>Internal teams for service improvement</li>
+                        </ul>
+                        <p>All shared data is protected with strict confidentiality agreements.</p>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">4. Data Security</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>We use industry-standard security measures such as:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Encryption</li>
+                            <li>Secure servers</li>
+                            <li>Access control and authentication</li>
+                        </ul>
+                        <p>However, no system is 100% secure, and we encourage users to protect their login credentials.</p>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">5. Cookies & Tracking Technologies</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>We may use cookies to improve user experience, such as:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Remembering your login session</li>
+                            <li>Saving preferences</li>
+                            <li>Analytics tracking</li>
+                        </ul>
+                        <p>You can disable cookies from your browser settings.</p>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">6. User Rights</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>You have the right to:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Access your personal information</li>
+                            <li>Request correction or update</li>
+                            <li>Request deletion (subject to legal and business requirements)</li>
+                            <li>Opt out of marketing communications</li>
+                        </ul>
+                        <p>To exercise these rights, contact: [your support email here]</p>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">7. Data Retention</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>We retain personal and business data only as long as necessary to:</p>
+                        <ul class="list-disc pl-6.75">
+                            <li>Provide services</li>
+                            <li>Meet legal obligations</li>
+                            <li>Resolve disputes</li>
+                        </ul>
+                        <p>After that period, data is securely deleted.</p>
+                    </div>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">8. Third-Party Links</h3>
+                    <p class="legal-text">Our platform may contain links to external websites. We are not responsible for their content or privacy practices.</p>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">9. Changes to This Policy</h3>
+                    <p class="legal-text">Dealercore reserves the right to update this Privacy Policy at any time. Updated versions will be posted on our website with the “Last Updated” date.</p>
+                </div>
+                <div class="space-y-7">
+                    <h3 class="legal-title">10. Contact Us</h3>
+                    <div class="space-y-1 legal-text">
+                        <p>For questions or concerns regarding this Privacy Policy:</p>
+                        <ul class="list-disc legal-text space-y-1">
+                            <li class="flex items-center gap-2">
+                                <img class="w-6" src="../images/icons/email.svg" alt="icon"/>
+                                <p>
+                                    Email: <a class="" href="mailto:support@dealercore.com">support@dealercore.com</a>
+                                </p>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img class="w-6" src="../images/icons/Phone.svg" alt="icon"/>
+                                <p>
+                                    Phone: <a class="" href="tel:4242548552">424 2548 552</a>
+                                </p>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img class="w-6" src="../images/icons/Website.svg" alt="icon"/>
+                                <p>
+                                    Website: <a class="" href="www.dealercore.com">www.dealercore.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- bg effects start -->
+            <div class="after:absolute after:right-0 2xl:after:top-77.5 xl:after:top-70 sm:after:top-65 after:top-66.25 2xl:after:h-225 after:h-198.75 lg:after:w-200 md:after:w-150 after:w-full after:rounded-full after:bg-thameThreelightYellow/20 after:filter after:blur-[3000px] after:-z-10 before:absolute before:left-0 2xl:before:bottom-15 xl:before:bottom-12.5 before:bottom-20  2xl:before:h-225 before:h-217.5 lg:before:w-200 md:before:w-150 before:w-full before:rounded-full before:bg-thameThreeSecondary/20 before:filter before:blur-[3000px] before:-z-10 "></div>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

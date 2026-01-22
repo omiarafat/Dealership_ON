@@ -1,0 +1,1545 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="../../output.css" rel="stylesheet">
+    <link href="../css/app.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="w-full h-240 inline-flex justify-center items-center bg-cover bg-center bg-no-repeat z-10 relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-gradient-to-b before:from-black/0 before:to-black before:backdrop-blur-sm before:-z-10" style="background-image: url(../images/vehicles/home-banner.png);">
+        <div class="main-container">
+            <div class="space-y-15 xl:space-y-25">
+                <div class="space-y-10 text-center">
+                    <div class="space-y-6 text-center">
+                        <p class="text-sm sm:text-base leading-4 font-normal text-white text-center">
+                            Find cars for sale and for rent near you
+                        </p>
+                        <h2 class="text-4xl xsm:text-5xl xl:text-6xl 2xl:text-7xl font-semibold leading-14.5 2xl:leading-17 text-white text-center">
+                            Find Your Perfect Car
+                        </h2>
+                    </div>
+                    <div class="max-w-232.5 mx-auto p-3 xl:p-4 bg-white/50 rounded-2xl border border-thameThreeWhiteLight/50">
+                        <form class="flex flex-wrap items-center justify-between gap-3 sm:gap-4 lg:gap-0" action="">
+                            <!-- Makes -->
+                            <div class="w-full xsm:w-37.2/12 lg:w-1/4 pb-3 xsm:pb-0 xsm:pr-3 sm:pr-6 lg:px-6 border-b xsm:border-b-0 xsm:border-r border-thameThreeWhiteLight/50 h-9 inline-flex items-center">
+                                <select class="block w-full bg-transparent py-1 text-xs sm:text-sml sm:leading-7 font-normal text-thameThreePrimary">
+                                    <option value="usa">Any Makes</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="uk">United Kingdom</option>
+                                </select>
+                            </div>
+                            <!-- Models -->
+                            <div class="w-full xsm:w-37.2/12 lg:w-1/4 pb-3 xsm:pb-0 xsm:pr-3 sm:pr-6 lg:px-6 border-b xsm:border-b-0 xsm:border-r border-thameThreeWhiteLight/50 h-9 inline-flex items-center">
+                                <select class="block w-full bg-transparent py-1 text-xs sm:text-sml sm:leading-7 font-normal text-thameThreePrimary">
+                                    <option value="usa">Any Models</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="uk">United Kingdom</option>
+                                </select>
+                            </div>
+                            <!-- Prices -->
+                            <div class="w-full xsm:w-37.2/12 lg:w-1/4 sm:pl-6 flex items-center gap-4 h-9">
+                                <p class="text-xs sm:text-sml sm:leading-7 font-normal text-thameThreePrimary">
+                                    Prices:
+                                </p>
+                                <select class="block w-full bg-transparent py-1 text-xs sm:text-sml sm:leading-7 font-normal text-thameThreePrimary appearance-none">
+                                    <option value="usa">All Prices</option>
+                                    <option value="canada">$ 10000</option>
+                                    <option value="uk">$ 50000</option>
+                                </select>
+                                
+                            </div>
+                            <!-- Search button -->
+                            <div class="w-full lg:w-1/4 pl-3 sm:pl-1">
+                                <button class=" px-5 py-2.5 h-12 bg-thameThreeSecondary border border-thameThreeSecondary rounded-lg text-xs sm:text-sml font-medium text-white duration-300 hover:bg-thameThreeSecondaryDark">
+                                    Search Cars <span class="font-normal">(25,3697)</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <p class="text-xs sm:text-sml font-normal text-white/70 text-center">
+                        or Browse by Body Type
+                    </p>
+                    <!-- Body Type -->
+                    <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/suv.svg" alt="icon"/>
+                            Suv (226)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/sedan.svg" alt="icon"/>
+                            Sedan (265)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/hatchback.svg" alt="icon"/>
+                            Hatchback (536)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/coupe.svg" alt="icon"/>
+                            Coupe (23)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/hybrid.svg" alt="icon"/>
+                            Hybrid (51)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/electric.svg" alt="icon"/>
+                            Electric (11)
+                        </button>
+                        <button class="px-5 py-3 xl:py-3.25 h-10 xl:h-11 bg-white/25 text-xs xl:text-sml leading-4 font-medium text-thameThreeWhiteLight rounded-full flex items-center gap-3 duration-300 hover:bg-white/50">
+                            <img class="w-6.5 h-8.5 inline-flex justify-center items-center" src="../images/icons/ute.svg" alt="icon"/>
+                            Ute (8)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Vehicles -->
+    <div class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-45">
+        <div class="main-container">
+            <!-- Title -->
+            <div class="mb-10 sm:flex justify-between items-start gap-4">
+                <div class="space-y-4 w-9/12 max-w-216">
+                    <h2 class="secendery-title">
+                        Our Latest Vehicles
+                    </h2>
+                    <p class="text-base font-normal text-thameThreetextSecondary">
+                        Our goal is to deliver outstanding service, great value, and a diverse selection of products to meet your needs.
+                    </p>
+                </div>
+                <button class="w-fit mt-3 ml-auto flex items-center gap-3 text-base text-thameThreeSecondary font-normal duration-300 hover:text-thameThreeSecondaryDark">
+                    View All
+                    <svg class="fill-current duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.6111 0H5.05557C4.84061 0 4.66667 0.173943 4.66667 0.388901C4.66667 0.603859 4.84061 0.777802 5.05557 0.777802H12.6723L0.113941 13.3362C-0.0379804 13.4881 -0.0379804 13.7342 0.113941 13.8861C0.189884 13.962 0.289415 14 0.38891 14C0.488405 14 0.5879 13.962 0.663879 13.8861L13.2222 1.3277V8.94447C13.2222 9.15943 13.3961 9.33337 13.6111 9.33337C13.8261 9.33337 14 9.15943 14 8.94447V0.388901C14 0.173943 13.826 0 13.6111 0Z" fill=""/>
+                    </svg>
+
+                </button>
+            </div>
+            <div class="">
+                <!-- Tabes Navegation -->
+                <nav class="border-b border-bannerText/8 flex flex-wrap items-center gap-x-6 gap-y-4 lg:gap-8">
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-full after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Suv (226)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Sedan (265)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Hatchback (536)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Coupe (23)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Hybrid (51)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Electric (11)
+                    </button>
+                    <button class="text-base leading-7 font-medium text-thameThreetextSecondary pb-2.5 relative duration-300 after:absolute after:w-0 after:h-0.5 after:bg-thameThreeSecondary after:right-0 after:bottom-0 after:duration-300 hover:text-bannerText hover:after:w-full hover:after:left-0">
+                        Ute (8)
+                    </button>
+                </nav>
+                <!-- Tabe contents -->
+                <div class="relative">
+                    <!-- Swiper -->
+                    <div class="swiper latestVehicles py-8 sm:pr-[25%] md:pr-[40%] lg:pr-[6%] xl:pr-[17%] 2xl:pr-[23%]">
+                        <div class="swiper-wrapper">
+                            <!-- Card -->
+                            <div class="swiper-slide w-full xsm:max-h-67.5">
+                                <div class="w-full rounded-2xl xsm:rounded-3xl grid grid-cols-5 bg-thameThreeWhiteLight border border-transparent duration-300 hover:border-thameThreeSecondary/50 hover:shadow-thameThreeCard">
+                                    <!-- Vehicle img -->
+                                    <div class="xsm:max-w-75 relative h-62.5 xsm:h-full col-span-5 xsm:col-span-2">
+                                        <img class="w-full h-full rounded-t-2xl xsm:rounded-tr-none xsm:rounded-l-3xl object-cover" src="../images/vehicles/Ltv-1.jpg" alt="imge"/>
+
+                                        <p class="absolute top-5 left-5 px-3 lg:px-4 py-1 xxl:py-1.5 rounded-3xl bg-thameThreelightYellow/70 text-xs lg:text-sm font-medium text-white">
+                                            On offer 1
+                                        </p>
+                                    </div>
+                                    <div class=" space-y-6 4xl:space-y-8 p-5 3xl:p-7 4xl:p-10 col-span-5 xsm:col-span-3">
+                                        <div class=" space-y-5 4xl:space-y-6">
+                                            <div class="space-y-3">
+                                                <h5 class="text-base xxl:text-lg 4xl:text-xl font-semibold text-bannerText">
+                                                    1970 Dodge Challenger R/T
+                                                </h5>
+                                                <p class="text-sm xl:leading-none font-normal text-bannerText">
+                                                    4.0 D5 Power Pulse Momentum 5dr ...
+                                                </p>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-3 4xl:gap-5">
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/odometers.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        15 Miles
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/fuel-type.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Petrol
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/transmission.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Manual
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/year.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        2025
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Price & action -->
+                                        <div class="flex justify-between items-center gap-4">
+                                            <!-- Price -->
+                                            <p class="text-lg xl:text-xl leading-7 font-semibold text-thameThreeSecondary">
+                                                $15,000.00
+                                            </p>
+                                            <button class="text-sm xsm:text-xs xl:text-sm xxl:text-sml leading-7 font-medium text-bannerText flex items-center gap-3 duration-300 hover:text-thameThreeSecondary">
+                                                View Details
+                                                <svg class="fill-current size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.5556 0H5.7778C5.53213 0 5.33334 0.198792 5.33334 0.444458C5.33334 0.690125 5.53213 0.888917 5.7778 0.888917H14.4827L0.130219 15.2414C-0.0434062 15.415 -0.0434062 15.6962 0.130219 15.8698C0.21701 15.9566 0.33076 16 0.444469 16C0.558177 16 0.671886 15.9566 0.758719 15.8698L15.1111 1.51737V10.2223C15.1111 10.4679 15.3099 10.6667 15.5556 10.6667C15.8013 10.6667 16 10.4679 16 10.2223V0.444458C16 0.198792 15.8012 0 15.5556 0Z" fill=""/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="swiper-slide w-full xsm:max-h-67.5">
+                                <div class="w-full rounded-2xl xsm:rounded-3xl grid grid-cols-5 bg-thameThreeWhiteLight border border-transparent duration-300 hover:border-thameThreeSecondary/50 hover:shadow-thameThreeCard">
+                                    <!-- Vehicle img -->
+                                    <div class="xsm:max-w-75 relative h-62.5 xsm:h-full col-span-5 xsm:col-span-2">
+                                        <img class="w-full h-full rounded-t-2xl xsm:rounded-tr-none xsm:rounded-l-3xl object-cover" src="../images/vehicles/Ltv-1.jpg" alt="imge"/>
+
+                                        <p class="absolute top-5 left-5 px-3 lg:px-4 py-1 xxl:py-1.5 rounded-3xl bg-thameThreelightYellow/70 text-xs lg:text-sm font-medium text-white">
+                                            On offer 2
+                                        </p>
+                                    </div>
+                                    <div class=" space-y-6 4xl:space-y-8 p-5 3xl:p-7 4xl:p-10 col-span-5 xsm:col-span-3">
+                                        <div class=" space-y-5 4xl:space-y-6">
+                                            <div class="space-y-3">
+                                                <h5 class="text-base xxl:text-lg 4xl:text-xl font-semibold text-bannerText">
+                                                    1970 Dodge Challenger R/T
+                                                </h5>
+                                                <p class="text-sm xl:leading-none font-normal text-bannerText">
+                                                    4.0 D5 Power Pulse Momentum 5dr ...
+                                                </p>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-3 4xl:gap-5">
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/odometers.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        15 Miles
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/fuel-type.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Petrol
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/transmission.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Manual
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/year.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        2025
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Price & action -->
+                                        <div class="flex justify-between items-center gap-4">
+                                            <!-- Price -->
+                                            <p class="text-lg xl:text-xl leading-7 font-semibold text-thameThreeSecondary">
+                                                $15,000.00
+                                            </p>
+                                            <button class="text-sm xsm:text-xs xl:text-sm xxl:text-sml leading-7 font-medium text-bannerText flex items-center gap-3 duration-300 hover:text-thameThreeSecondary">
+                                                View Details
+                                                <svg class="fill-current size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.5556 0H5.7778C5.53213 0 5.33334 0.198792 5.33334 0.444458C5.33334 0.690125 5.53213 0.888917 5.7778 0.888917H14.4827L0.130219 15.2414C-0.0434062 15.415 -0.0434062 15.6962 0.130219 15.8698C0.21701 15.9566 0.33076 16 0.444469 16C0.558177 16 0.671886 15.9566 0.758719 15.8698L15.1111 1.51737V10.2223C15.1111 10.4679 15.3099 10.6667 15.5556 10.6667C15.8013 10.6667 16 10.4679 16 10.2223V0.444458C16 0.198792 15.8012 0 15.5556 0Z" fill=""/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="swiper-slide w-full xsm:max-h-67.5">
+                                <div class="w-full rounded-2xl xsm:rounded-3xl grid grid-cols-5 bg-thameThreeWhiteLight border border-transparent duration-300 hover:border-thameThreeSecondary/50 hover:shadow-thameThreeCard">
+                                    <!-- Vehicle img -->
+                                    <div class="xsm:max-w-75 relative h-62.5 xsm:h-full col-span-5 xsm:col-span-2">
+                                        <img class="w-full h-full rounded-t-2xl xsm:rounded-tr-none xsm:rounded-l-3xl object-cover" src="../images/vehicles/Ltv-1.jpg" alt="imge"/>
+
+                                        <p class="absolute top-5 left-5 px-3 lg:px-4 py-1 xxl:py-1.5 rounded-3xl bg-thameThreelightYellow/70 text-xs lg:text-sm font-medium text-white">
+                                            On offer 3
+                                        </p>
+                                    </div>
+                                    <div class=" space-y-6 4xl:space-y-8 p-5 3xl:p-7 4xl:p-10 col-span-5 xsm:col-span-3">
+                                        <div class=" space-y-5 4xl:space-y-6">
+                                            <div class="space-y-3">
+                                                <h5 class="text-base xxl:text-lg 4xl:text-xl font-semibold text-bannerText">
+                                                    1970 Dodge Challenger R/T
+                                                </h5>
+                                                <p class="text-sm xl:leading-none font-normal text-bannerText">
+                                                    4.0 D5 Power Pulse Momentum 5dr ...
+                                                </p>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-3 4xl:gap-5">
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/odometers.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        15 Miles
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/fuel-type.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Petrol
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/transmission.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Manual
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/year.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        2025
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Price & action -->
+                                        <div class="flex justify-between items-center gap-4">
+                                            <!-- Price -->
+                                            <p class="text-lg xl:text-xl leading-7 font-semibold text-thameThreeSecondary">
+                                                $15,000.00
+                                            </p>
+                                            <button class="text-sm xsm:text-xs xl:text-sm xxl:text-sml leading-7 font-medium text-bannerText flex items-center gap-3 duration-300 hover:text-thameThreeSecondary">
+                                                View Details
+                                                <svg class="fill-current size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.5556 0H5.7778C5.53213 0 5.33334 0.198792 5.33334 0.444458C5.33334 0.690125 5.53213 0.888917 5.7778 0.888917H14.4827L0.130219 15.2414C-0.0434062 15.415 -0.0434062 15.6962 0.130219 15.8698C0.21701 15.9566 0.33076 16 0.444469 16C0.558177 16 0.671886 15.9566 0.758719 15.8698L15.1111 1.51737V10.2223C15.1111 10.4679 15.3099 10.6667 15.5556 10.6667C15.8013 10.6667 16 10.4679 16 10.2223V0.444458C16 0.198792 15.8012 0 15.5556 0Z" fill=""/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="swiper-slide w-full xsm:max-h-67.5">
+                                <div class="w-full rounded-2xl xsm:rounded-3xl grid grid-cols-5 bg-thameThreeWhiteLight border border-transparent duration-300 hover:border-thameThreeSecondary/50 hover:shadow-thameThreeCard">
+                                    <!-- Vehicle img -->
+                                    <div class="xsm:max-w-75 relative h-62.5 xsm:h-full col-span-5 xsm:col-span-2">
+                                        <img class="w-full h-full rounded-t-2xl xsm:rounded-tr-none xsm:rounded-l-3xl object-cover" src="../images/vehicles/Ltv-1.jpg" alt="imge"/>
+
+                                        <p class="absolute top-5 left-5 px-3 lg:px-4 py-1 xxl:py-1.5 rounded-3xl bg-thameThreelightYellow/70 text-xs lg:text-sm font-medium text-white">
+                                            On offer 4
+                                        </p>
+                                    </div>
+                                    <div class=" space-y-6 4xl:space-y-8 p-5 3xl:p-7 4xl:p-10 col-span-5 xsm:col-span-3">
+                                        <div class=" space-y-5 4xl:space-y-6">
+                                            <div class="space-y-3">
+                                                <h5 class="text-base xxl:text-lg 4xl:text-xl font-semibold text-bannerText">
+                                                    1970 Dodge Challenger R/T
+                                                </h5>
+                                                <p class="text-sm xl:leading-none font-normal text-bannerText">
+                                                    4.0 D5 Power Pulse Momentum 5dr ...
+                                                </p>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-3 4xl:gap-5">
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/odometers.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        15 Miles
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/fuel-type.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Petrol
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/transmission.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Manual
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/year.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        2025
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Price & action -->
+                                        <div class="flex justify-between items-center gap-4">
+                                            <!-- Price -->
+                                            <p class="text-lg xl:text-xl leading-7 font-semibold text-thameThreeSecondary">
+                                                $15,000.00
+                                            </p>
+                                            <button class="text-sm xsm:text-xs xl:text-sm xxl:text-sml leading-7 font-medium text-bannerText flex items-center gap-3 duration-300 hover:text-thameThreeSecondary">
+                                                View Details
+                                                <svg class="fill-current size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.5556 0H5.7778C5.53213 0 5.33334 0.198792 5.33334 0.444458C5.33334 0.690125 5.53213 0.888917 5.7778 0.888917H14.4827L0.130219 15.2414C-0.0434062 15.415 -0.0434062 15.6962 0.130219 15.8698C0.21701 15.9566 0.33076 16 0.444469 16C0.558177 16 0.671886 15.9566 0.758719 15.8698L15.1111 1.51737V10.2223C15.1111 10.4679 15.3099 10.6667 15.5556 10.6667C15.8013 10.6667 16 10.4679 16 10.2223V0.444458C16 0.198792 15.8012 0 15.5556 0Z" fill=""/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card -->
+                            <div class="swiper-slide w-full xsm:max-h-67.5">
+                                <div class="w-full rounded-2xl xsm:rounded-3xl grid grid-cols-5 bg-thameThreeWhiteLight border border-transparent duration-300 hover:border-thameThreeSecondary/50 hover:shadow-thameThreeCard">
+                                    <!-- Vehicle img -->
+                                    <div class="xsm:max-w-75 relative h-62.5 xsm:h-full col-span-5 xsm:col-span-2">
+                                        <img class="w-full h-full rounded-t-2xl xsm:rounded-tr-none xsm:rounded-l-3xl object-cover" src="../images/vehicles/Ltv-1.jpg" alt="imge"/>
+
+                                        <p class="absolute top-5 left-5 px-3 lg:px-4 py-1 xxl:py-1.5 rounded-3xl bg-thameThreelightYellow/70 text-xs lg:text-sm font-medium text-white">
+                                            On offer 5
+                                        </p>
+                                    </div>
+                                    <div class=" space-y-6 4xl:space-y-8 p-5 3xl:p-7 4xl:p-10 col-span-5 xsm:col-span-3">
+                                        <div class=" space-y-5 4xl:space-y-6">
+                                            <div class="space-y-3">
+                                                <h5 class="text-base xxl:text-lg 4xl:text-xl font-semibold text-bannerText">
+                                                    1970 Dodge Challenger R/T
+                                                </h5>
+                                                <p class="text-sm xl:leading-none font-normal text-bannerText">
+                                                    4.0 D5 Power Pulse Momentum 5dr ...
+                                                </p>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-3 4xl:gap-5">
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/odometers.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        15 Miles
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/fuel-type.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Petrol
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/transmission.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        Manual
+                                                    </p>
+                                                </div>
+                                                <div class="flex items-center gap-3">
+                                                    <img class="size-4 xxl:size-5 inline-flex justify-center items-center" src="../images/icons/year.svg" alt="icon"/>
+                                                    <p class="text-sm leading-none font-normal text-bannerText">
+                                                        2025
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Price & action -->
+                                        <div class="flex justify-between items-center gap-4">
+                                            <!-- Price -->
+                                            <p class="text-lg xl:text-xl leading-7 font-semibold text-thameThreeSecondary">
+                                                $15,000.00
+                                            </p>
+                                            <button class="text-sm xsm:text-xs xl:text-sm xxl:text-sml leading-7 font-medium text-bannerText flex items-center gap-3 duration-300 hover:text-thameThreeSecondary">
+                                                View Details
+                                                <svg class="fill-current size-3" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.5556 0H5.7778C5.53213 0 5.33334 0.198792 5.33334 0.444458C5.33334 0.690125 5.53213 0.888917 5.7778 0.888917H14.4827L0.130219 15.2414C-0.0434062 15.415 -0.0434062 15.6962 0.130219 15.8698C0.21701 15.9566 0.33076 16 0.444469 16C0.558177 16 0.671886 15.9566 0.758719 15.8698L15.1111 1.51737V10.2223C15.1111 10.4679 15.3099 10.6667 15.5556 10.6667C15.8013 10.6667 16 10.4679 16 10.2223V0.444458C16 0.198792 15.8012 0 15.5556 0Z" fill=""/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider next & prev button -->
+                    <div class="button-next absolute -bottom-19 right-16 xl:right-21 w-12 xl:w-15 h-8 xl:h-11 rounded-3xl border border-thameThreePrimary/10 bg-white text-thameThreePrimary/70 duration-300 inline-flex items-center justify-center hover:border-thameThreePrimary hover:bg-thameThreePrimary hover:text-white">
+                        <svg class="fill-current" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 6C0 5.76 0.0933333 5.56 0.28 5.4L5.44 0.240001C5.6 0.0799999 5.79333 0 6.02 0C6.24667 0 6.44667 0.0799999 6.62 0.240001C6.79333 0.400001 6.88 0.6 6.88 0.84C6.88 1.08 6.78667 1.28 6.6 1.44L2.04 6L6.6 10.56C6.76 10.72 6.84 10.92 6.84 11.16C6.84 11.4 6.76 11.6 6.6 11.76C6.44 11.92 6.24667 12 6.02 12C5.79333 12 5.6 11.92 5.44 11.76L0.28 6.6C0.0933333 6.44 0 6.24 0 6Z" fill=""/>
+                        </svg>
+                    </div>
+                    <div class="button-prev absolute -bottom-19 right-0 w-12 xl:w-15 h-8 xl:h-11 rounded-3xl border border-thameThreePrimary/10 bg-white text-thameThreePrimary/70 duration-300 inline-flex items-center justify-center hover:border-thameThreePrimary hover:bg-thameThreePrimary hover:text-white">
+                        <svg class="fill-current" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.88 6C6.88 5.76 6.78667 5.56 6.6 5.4L1.44 0.240001C1.28 0.0799999 1.08667 0 0.860005 0C0.633338 0 0.433338 0.0799999 0.260005 0.240001C0.0866718 0.400001 5.24521e-06 0.6 5.24521e-06 0.84C5.24521e-06 1.08 0.0933385 1.28 0.280005 1.44L4.84 6L0.280005 10.56C0.120005 10.72 0.0400052 10.92 0.0400052 11.16C0.0400052 11.4 0.120005 11.6 0.280005 11.76C0.440005 11.92 0.633338 12 0.860005 12C1.08667 12 1.28 11.92 1.44 11.76L6.6 6.6C6.78667 6.44 6.88 6.24 6.88 6Z" fill=""/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Explore & Different -->
+    <section class="relative z-10 overflow-hidden">
+        <div class="main-container">
+            <div class="space-y-16">
+                <!-- Title -->
+                <div class="space-y-4 w-9/12 max-w-216">
+                    <h2 class="secendery-title">
+                        Explore by Make & Body Type
+                    </h2>
+                    <p class="text-base font-normal text-thameThreetextSecondary">
+                        Our goal is to deliver outstanding service, great value, and a diverse selection of products to meet your needs.
+                    </p>
+                </div>
+                <!-- Tads Section -->
+                <div class="space-y-14">
+                    <!-- Tab navigation -->
+                    <div class="max-w-192 lg:max-w-256 xl:max-w-300 w-full mx-auto px-2 2xl:px-3 pt-2 2xl:pt-3 pb-1 2xl:pb-1.5 bg-thameThreeSecondary/10 border-2 border-thameThreeSecondary/10 rounded-full">
+                        <nav class="w-full flex items-center justify-between pb-1 2xl:pb-1.5 overflow-x-auto">
+                            <button class="p-3 2xl:p-4 min-w-35 lg:min-w-45 xl:min-w-55 h-12 2xl:h-16 rounded-full text-base lg:text-lg 2xl:text-2xl font-medium inline-flex justify-center items-center duration-300 bg-thameThreeSecondary text-white">
+                                Brand
+                            </button>
+                            <button class="p-3 2xl:p-4 min-w-35 lg:min-w-45 xl:min-w-55 h-12 2xl:h-16 rounded-full text-base lg:text-lg 2xl:text-2xl font-medium inline-flex justify-center items-center text-thameThreetextSecondary duration-300 hover:text-thameThreeSecondary active:bg-thameThreeSecondary active:text-white">
+                                Body
+                            </button>
+                            <button class="p-3 2xl:p-4 min-w-35 lg:min-w-45 xl:min-w-55 h-12 2xl:h-16 rounded-full text-base lg:text-lg 2xl:text-2xl font-medium inline-flex justify-center items-center text-thameThreetextSecondary duration-300 hover:text-thameThreeSecondary active:bg-thameThreeSecondary active:text-white">
+                                Price
+                            </button>
+                            <button class="p-3 2xl:p-4 min-w-35 lg:min-w-45 xl:min-w-55 h-12 2xl:h-16 rounded-full text-base lg:text-lg 2xl:text-2xl font-medium inline-flex justify-center items-center text-thameThreetextSecondary duration-300 hover:text-thameThreeSecondary active:bg-thameThreeSecondary active:text-white">
+                                Fuel Type
+                            </button>
+                            <button class="p-3 2xl:p-4 min-w-35 lg:min-w-45 xl:min-w-55 h-12 2xl:h-16 rounded-full text-base lg:text-lg 2xl:text-2xl font-medium inline-flex justify-center items-center text-thameThreetextSecondary duration-300 hover:text-thameThreeSecondary active:bg-thameThreeSecondary active:text-white">
+                                Transmission
+                            </button>
+                        </nav>
+                    </div>
+
+                    <!-- Tabs content -->
+                    <div class="max-h-140 lg:max-h-150 xl:max-h-206 overflow-y-auto px-0.5 py-2">
+                        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 xl:gap-x-8 gap-y-7 xl:gap-y-9">
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-2.png" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                            <!-- Card -->
+                            <button class="max-w-65 max-h-45 w-full p-4 xl:p-7 bg-white border border-thameThreePrimary/10 rounded-xl flex flex-col items-center justify-center hover:bg-thameThreeWhiteLight transition duration-300 hover:border-thameThreeSecondary/50 hover:-translate-y-2 hover:shadow-thameThreeExploreCard">
+                                <img class="max-w-25 max-h-25 w-4/5 h-full min-w-15 min-h-15" src="../images/brands/brands-1.jpg" alt="logo"/>
+                                <p class="text-bannerText text-base 2xl:text-xl font-medium">Volkswagen</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Different -->
+            <div class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-40">
+                <div class="w-11/12 3xl:w-10/12 mx-auto">
+                    <div class="flex flex-wrap lg:flex-nowrap justify-between items-center space-y-10 lg:space-y-0">
+                        <div class="max-w-162.5 w-full lg:w-2/4 3xl:w-5.4/12 space-y-9 xxl:space-y-12">
+                            <!-- Title -->
+                            <div class="space-y-4">
+                                <h2 class="secendery-title">
+                                    What Makes Us Different
+                                </h2>
+                                <p class="text-base font-normal text-thameThreetextSecondary">
+                                    Our goal is to deliver outstanding support to our clients, offer attractive pricing, and present a diverse selection of options.
+                                </p>
+                            </div>
+                            <ul class=" space-y-4 xxl:space-y-6">
+                                <li class="flex items-start sm:items-center gap-3">
+                                    <div class="min-w-5 sm:min-w-6 min-h-5 sm:min-h-6 bg-thameThreePrimary inline-flex items-center justify-center rounded-md mt-1.5 sm:mt-0">
+                                        <img class="size-3" src="../images/icons/check.svg" alt="icon"/>
+                                    </div>
+                                    <p class="text-base font-medium text-bannerText">
+                                        Explore the UK's top security service for comprehensive surveillance.
+                                    </p>
+                                </li>
+                                <li class="flex items-start sm:items-center gap-3">
+                                    <div class="min-w-5 sm:min-w-6 min-h-5 sm:min-h-6 bg-thameThreePrimary inline-flex items-center justify-center rounded-md mt-1.5 sm:mt-0">
+                                        <img class="size-3" src="../images/icons/check.svg" alt="icon"/>
+                                    </div>
+                                    <p class="text-base font-medium text-bannerText">
+                                        Enjoy round-the-clock roadside support whenever you need it.
+                                    </p>
+                                </li>
+                                <li class="flex items-start sm:items-center gap-3">
+                                    <div class="min-w-5 sm:min-w-6 min-h-5 sm:min-h-6 bg-thameThreePrimary inline-flex items-center justify-center rounded-md mt-1.5 sm:mt-0">
+                                        <img class="size-3" src="../images/icons/check.svg" alt="icon"/>
+                                    </div>
+                                    <p class="text-base font-medium text-bannerText">
+                                        We successfully repair 80% of vehicles right on the spot.
+                                    </p>
+                                </li>
+                                <li class="flex items-start sm:items-center gap-3">
+                                    <div class="min-w-5 sm:min-w-6 min-h-5 sm:min-h-6 bg-thameThreePrimary inline-flex items-center justify-center rounded-md mt-1.5 sm:mt-0">
+                                        <img class="size-3" src="../images/icons/check.svg" alt="icon"/>
+                                    </div>
+                                    <p class="text-base font-medium text-bannerText">
+                                        Join our loyalty program for exclusive discounts and benefits.
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <button class="h-11 xl:h-14 px-7 py-4 text-sml xl:text-base font-medium text-white bg-thameThreeSecondary rounded-xl flex items-center gap-4 duration-300 hover:bg-thameThreeSecondaryDark">
+                                Get Started
+                                <svg class="fill-white duration-300" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 0C10.7 0 10.5 0.0999994 10.3 0.299999L0.3 10.3C-0.1 10.7 -0.1 11.3 0.3 11.7C0.7 12.1 1.3 12.1 1.7 11.7L11.7 1.7C12.1 1.3 12.1 0.699999 11.7 0.299999C11.5 0.0999994 11.3 0 11 0Z" fill=""/>
+                                    <path d="M11 0H2C1.4 0 1 0.4 1 1C1 1.6 1.4 2 2 2H10V10C10 10.6 10.4 11 11 11C11.6 11 12 10.6 12 10V1C12 0.4 11.6 0 11 0Z" fill=""/>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="max-w-166.75 w-full lg:w-5.4/12 flex items-end gap-5 xl:gap-9 xxl:gap-12 mx-auto lg:mx-0">
+                            <div class="space-y-5 xl:space-y-9 xxl:space-y-12 w-2/4">
+                                <img class="ml-auto max-w-71.25 max-h-70 w-full rounded-2xl sm:rounded-3xl" src="../images/vehicles/md-1.jpg" alt="img">
+                                <img class="ml-auto max-w-56 max-h-56 w-4/5 rounded-2xl sm:rounded-3xl" src="../images/vehicles/md-2.jpg" alt="img">
+                            </div>
+                            <img class="max-w-82 max-h-109 w-2/4 rounded-2xl sm:rounded-3xl" src="../images/vehicles/md-3.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Ellipse -->
+        <div class="absolute top-1/3 right-50 w-57.5 h-57.5 bg-thameThreeSecondary/50 filter blur-[500px] -z-10 opacity-50"></div>
+    </section>
+
+    <!-- Loan Calculator -->
+    <section class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-40 relative z-10 rounded-12 overflow-hidden">
+        <div class="main-container">
+            <!-- Title -->
+            <div class="space-y-4">
+                <h2 class="primery-title text-center">
+                    Your goals are our main focus, always!
+                </h2>
+                <p class="text-base font-normal text-thameThreetextSecondary text-center">
+                    With over 800M listings and trusted dealer reviews, Elite Motors connects you to the best cars, the best dealers, and the best deals — every single day.
+                </p>
+            </div>
+
+            <!-- Calculator -->
+            <div class="mt-10 md:mt-11 xl:mt-13 2xl:mt-16 rounded-3xl bg-thameThreeWhiteLight">
+                <div class="flex flex-wrap lg:flex-nowrap items-center">
+                    <div class="py-5 sm:py-7 md:py-10 xl:py-12 3xl:py-16 w-full lg:w-3/5 max-w-259.5">
+                        <form action="" class="px-5 sm:px-7 md:px-10 xl:px-12 3xl:px-16 lg:border-r border-dashed border-bannerText/50 space-y-5 xl:space-y-6">
+                            <!-- Vehicle Budget -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        Vehicle Budget
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $1,000
+                                        </p>
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $10,00000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="vehicle_budget" name="vehicle_budget" type="text" value="1000" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-12 xl:pr-15 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        AUD
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Cash Deposit -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        Cash Deposit
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <!-- Min -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $100
+                                        </p>
+                                        <!-- Max -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $10,00000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="deposit" name="deposit" type="text" value="100" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-12 xl:pr-15 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        AUD
+                                    </span>
+                                </div>
+
+                            </div>
+                            <!-- Trade-in Value -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        Trade-in Value
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <!-- Min -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $5,000
+                                        </p>
+                                        <!-- Max -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $10,00000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="trade_in_value" name="trade_in_value" type="text" value="5000" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-12 xl:pr-15 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        AUD
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- loan amount -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        loan amount
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <!-- Min -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $50,000
+                                        </p>
+                                        <!-- Max -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            $10,000,000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="loan_amount" name="loan_amount" type="text" value="50000" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-12 xl:pr-15 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        AUD
+                                    </span>
+                                </div>
+
+                            </div>
+                            <!-- Loan Term -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        Loan Term
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <!-- Min -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            02 Years
+                                        </p>
+                                        <!-- Max -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            08 Years
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="loan_term" name="loan_term" type="text" value="2" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-15 xl:pr-15 3xl:pr-17.5 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        years
+                                    </span>
+                                </div>
+
+                            </div>
+                            <!-- rate of interest -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col max-w-137.5 w-full sm:w-3/5">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        rate of interest (%)
+                                    </label>
+                                    <input type="range" 
+                                        class="rangeSlider w-full h-3 xl:h-4 rounded-3xl appearance-none cursor-pointer
+                                            [&::-webkit-slider-thumb]:appearance-none
+                                            [&::-webkit-slider-thumb]:h-4
+                                            [&::-webkit-slider-thumb]:w-4
+                                            [&::-webkit-slider-thumb]:rounded-full
+                                            [&::-webkit-slider-thumb]:bg-white
+                                            [&::-webkit-slider-thumb]:border-6
+                                            [&::-webkit-slider-thumb]:border-thameThreeIndigoBlue
+                                            [&::-webkit-slider-thumb]:shadow-lg
+
+                                            [&::-moz-range-thumb]:h-4
+                                            [&::-moz-range-thumb]:w-4
+                                            [&::-moz-range-thumb]:rounded-full
+                                            [&::-moz-range-thumb]:bg-white
+                                            [&::-moz-range-thumb]:border-6
+                                            [&::-moz-range-thumb]:border-thameThreeIndigoBlue "/>
+
+                                    <div class="mt-1 flex items-center justify-between gap-5">
+                                        <!-- Min -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            01%
+                                        </p>
+                                        <!-- Max -->
+                                        <p class="text-sm font-normal text-bannerText/50">
+                                            40%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative w-full sm:w-4/12 sm:max-w-78">
+                                    <input id="interest_rate" name="interest_rate" type="text" value="01" placeholder=" " class="peer text-thameThreePrimary text-base xl:text-lg 3xl:text-xl font-medium w-full h-11 xl:h-15 pl-6.5 pr-27 xl:pr-30 3xl:pr-33 py-2 xl:py-4 bg-white/10 border border-bannerText/25 rounded-lg focus:outline-none focus:border-thameThreeSecondary/70 placeholder-transparent"/>
+
+                                    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-green-600 text-thameThreetextSecondary text-base xl:text-lg 3xl:text-xl font-medium">
+                                        percentage
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-8 xl:gap-12">
+                                <div class="flex flex-col w-full sm:w-1/2">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        Balloon payment (%)
+                                    </label>
+                                    <div class="relative">
+                                        <select class="px-5.5 h-11 xl:h-15 py-2 xl:py-4 bg-white border border-thameThreePrimary/50 rounded-lg w-full text-base xl:text-lg 3xl:text-xl font-medium text-thameThreePrimary appearance-none">
+                                            <option value="usa">Any Makes</option>
+                                            <option value="canada">Canada</option>
+                                            <option value="uk">United Kingdom</option>
+                                        </select>
+                                        <!-- icon -->
+                                        <img class="absolute top-1/2 right-5.5 -translate-y-1/2" src="../images/icons/primary-down-arrow.svg" alt="icon"/>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col w-full sm:w-1/2">
+                                    <label for="" class="text-sm xl:text-base font-medium text-thameThreePrimary mb-2">
+                                        First payment date
+                                    </label>
+                                    <div class="relative">
+                                        <input type="date" class="w-full h-11 xl:h-15 text-base xl:text-lg 3xl:text-xl font-medium text-thameThreePrimary px-5.5 py-2 xl:py-4 bg-white border border-thameThreePrimary/50 rounded-lg focus:border-thameThreeSecondary/70 focus:outline-none"/>
+                                        <img class="size-6 bg-white absolute top-1/2 right-5.5 -translate-y-1/2" src="../images/icons/calander.svg" alt="icon"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Right side -->
+                    <div class="p-6 w-full lg:w-2/5 max-w-172.5 mx-auto">
+                        <!-- Graph & Chart -->
+                        <div class="relative">
+                            <!-- Graph & Chart button -->
+                            <div class="absolute -top-5 xl:top-0 -right-3 xl:right-0 flex flex-col">
+                                <button class="px-3 2xl:px-6 py-2 2xl:py-3.5 bg-white border border-thameThreeWhiteLight/25 rounded-t-lg text-xs 2xl:text-base font-medium text-thameThreePrimary">
+                                    Graph view
+                                </button>
+                                <button class="px-3 2xl:px-6 py-2 2xl:py-3.5 bg-thameThreePrimary border border-thameThreeWhiteLight/25 rounded-b-lg text-xs 2xl:text-base font-medium text-thameThreeWhiteLight">
+                                    Chart view
+                                </button>
+                            </div>
+                            <!-- Graph & Chart -->
+                            <div class="w-72 xl:w-87.5 h-70 mt-3 mx-auto flex justify-center items-center">
+                                <div class="max-w-50 max-h-50">
+                                    <canvas id="pieChart" width="200" height="200" class=""></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-8">
+                            <!-- equal monthly -->
+                            <div class="space-y-3">
+                                <p class=" font-normal text-sm xxl:text-base text-thameThreePrimary/70 text-center">
+                                    Equal monthly instalment (EMI)
+                                </p>
+                                <h2 class="text-center  font-semibold xl:text-10 text-3xl uppercase">
+                                    $6,044.44 AUd
+                                </h2>
+                            </div>
+
+                            <div class="w-4/5 max-w-100 mx-auto space-y-8">
+                                <!-- pakage sec -->
+                                <div class=" rounded-lg flex flex-col xsm:flex-row items-center xsm:gap-0 gap-2   justify-center ">
+                                    <button class="py-2 xl:py-3 px-5 text-center w-full xsm:w-24.25 border border-neutralBorder rounded-lg xsm:rounded-l-lg xsm:rounded-r-none font-normal text-sm xxl:text-base text-thameThreePrimary">
+                                        Weekly
+                                    </button>
+                                    <button class="py-2 xl:py-3 px-5 text-center w-full border xsm:border-x-0 border-neutralBorder rounded-lg xsm:rounded-none font-normal text-sm xxl:text-base text-thameThreePrimary">
+                                        Fortnightly
+                                    </button>
+                                    <button class="py-2 xl:py-3 px-5 text-center w-full xsm:w-[105px] border border-l-0 border-neutralBorder bg-thameThreePrimary rounded-lg xsm:rounded-l-none xsm:rounded-r-lg font-normal text-sm xxl:text-base text-white">
+                                        Monthly
+                                    </button>
+                                </div>
+
+                                <!-- payment sec -->
+                                <div class="w-full">
+                                    <!-- top sec -->
+                                    <div class="space-y-2 border-b border-thameThreePrimary/50 pb-3">
+                                        <!-- Principal -->
+                                        <div class="flex justify-between items-center">
+                                            <h4 class="after:absolute after:top-1 after:left-0 after:bg-thameThreeSecondary after:w-4 after:h-4 after:rounded relative font-normal text-sm xxl:text-base text-thameThreePrimary pl-6">
+                                                Principal Amount
+                                            </h4>
+                                            <p class=" font-normal text-sm xxl:text-base text-thameThreePrimary uppercase">
+                                                $4,444.44
+                                            </p>
+                                        </div>
+
+                                        <!-- Interest -->
+                                        <div class="flex justify-between items-center">
+                                            <h4 class="after:absolute after:top-1 after:left-0 after:bg-thameThreelightYellow after:w-4 after:h-4 after:rounded relative  font-normal text-sm xxl:text-base text-thameThreePrimary pl-6">
+                                                Interest Amount
+                                            </h4>
+                                            <p class=" font-normal text-sm xxl:text-base text-thameThreePrimary uppercase">
+                                                $1,600
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- total payable -->
+                                    <div class="flex justify-between items-center py-3">
+                                        <h4 class=" font-medium text-sm xxl:text-base text-thameThreePrimary ">
+                                            Total Payable Amount
+                                        </h4>
+                                        <p class=" font-medium text-sm xxl:text-base text-thameThreePrimary uppercase">
+                                            $6,044.44
+                                        </p>
+                                    </div>
+
+                                    <!-- bottom sec -->
+                                    <div class="space-y-2 border-t border-thameThreePrimary/50 pt-3">
+                                            <!-- Balloon -->
+                                            <div class="flex justify-between items-center">
+                                                <h4 class=" font-normal text-sm xxl:text-base text-thameThreePrimary ">
+                                                    Balloon
+                                                </h4>
+                                                <p class=" font-normal text-sm xxl:text-base text-thameThreePrimary uppercase">
+                                                    $ 5,000.00
+                                                </p>
+                                            </div>
+
+                                            <!-- Pay off date -->
+                                            <div class="flex justify-between items-center ">
+                                                <h4 class=" font-normal text-sm xxl:text-base text-thameThreePrimary ">
+                                                    Pay off date
+                                                </h4>
+                                                <p class=" font-normal text-sm xxl:text-base text-thameThreePrimary ">
+                                                    November | 2028
+                                                </p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- button sec -->
+                            <div class="flex flex-wrap 2xl:flex-nowrap justify-center gap-4 max-w-130 mx-auto">
+                                <button class="text-white bg-thameThreeSecondary w-full 2xl:w-1/2 py-3.75 px-4 h-11 2xl:h-14 rounded-xl font-medium text-sm xxl:text-base flex justify-center items-center gap-5 duration-300 group hover:bg-thameThreeSecondaryDark">
+                                    Apply for Finance
+                                    <svg class="fill-secondaryLighter" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 0C10.7 0 10.5 0.0999994 10.3 0.299999L0.3 10.3C-0.1 10.7 -0.1 11.3 0.3 11.7C0.7 12.1 1.3 12.1 1.7 11.7L11.7 1.7C12.1 1.3 12.1 0.699999 11.7 0.299999C11.5 0.0999994 11.3 0 11 0Z" fill=""/>
+                                        <path d="M11 0H2C1.4 0 1 0.4 1 1C1 1.6 1.4 2 2 2H10V10C10 10.6 10.4 11 11 11C11.6 11 12 10.6 12 10V1C12 0.4 11.6 0 11 0Z" fill=""/>
+                                    </svg>
+                                </button>
+
+                                <button class="text-white bg-thameThreePrimary w-full 2xl:w-1/2 py-3.75 px-4 h-11 2xl:h-14 rounded-xl font-medium text-sm xxl:text-base duration-300 group hover:bg-thameThreePrimaryDark">
+                                    See cars in your budget
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-6 text-sm font-normal text-bannerText/60">
+                The figures shown in the calculators do not constitute financial advice. Lender policy, term and conditions, fees and charges apply. The results should not be taken as a substitute for professional or finance advice. All reasonable care has been taken in preparing and designing the calculators and tools; however, oxcel finance provides no warranties and makes no representation that the information provided by the calculators and tools is appropriate for your particular circumstances or indicates you should follow a particular course of action
+            </p>
+        </div>
+        <!-- Background Ellipse blue -->
+        <div class="absolute top-0 left-0 w-124.5 h-124.5 bg-thameThreeSecondary/50 filter blur-[1000px] -z-10 opacity-50"></div>
+        <!-- Background Ellipse red -->
+        <div class="absolute bottom-0 right-0 w-124.5 h-124.5 bg-thameThreelightYellow/50 filter blur-[1000px] -z-10 opacity-50"></div>
+    </section>
+
+    <!-- Your goals are our main focus -->
+    <section class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-40">
+        <div class="main-container">
+            <div class="flex flex-wrap items-start justify-between gap-9 lg:gap-5">
+                <div class="max-w-180 w-full lg:w-5/12">
+                    <!-- Title -->
+                    <div class="space-y-4">
+                        <h2 class="primery-title">
+                            Your goals are our main focus, always!
+                        </h2>
+                        <p class="text-base font-normal text-thameThreetextSecondary">
+                            With over 800M listings and trusted dealer reviews, Elite Motors connects you to the best cars, the best dealers, and the best deals — every single day.
+                        </p>
+                    </div>
+                </div>
+                <div class=" max-w-212.5 w-full lg:w-1/2">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
+                        <div class="space-y-2 sm:space-y-3 xl:space-y-4">
+                            <div class="space-y-3 sm:space-y-4 xl:space-y-5">
+                                <div class="w-10 sm:w-12 xxl:w-16 h-10 sm:h-12 xxl:h-16 inline-flex items-center justify-center">
+                                    <img src="../images/icons/financing.svg" alt="icon"/>
+                                </div>
+                                <h4 class="text-base xl:text-xl font-medium text-thameThreePrimary">
+                                    Special Financing Offers
+                                </h4>
+                            </div>
+                            <p class="text-base font-normal text-thameThreetextSecondary">
+                                Discover our hassle-free finance team, dedicated to uncovering smart financial strategies that help you save more.
+                            </p>
+                        </div>
+                        <div class="space-y-2 sm:space-y-3 xl:space-y-4">
+                            <div class="space-y-3 sm:space-y-4 xl:space-y-5">
+                                <div class="w-10 sm:w-12 xxl:w-16 h-10 sm:h-12 xxl:h-16 inline-flex items-center justify-center">
+                                    <img src="../images/icons/trusted.svg" alt="icon"/>
+                                </div>
+                                <h4 class="text-base xl:text-xl font-medium text-thameThreePrimary">
+                                    Trusted Car Dealership
+                                </h4>
+                            </div>
+                            <p class="text-base font-normal text-thameThreetextSecondary">
+                                Meet our easy-going finance crew, ready to explore innovative financial options that can boost your savings.
+                            </p>
+                        </div>
+                        <div class="space-y-2 sm:space-y-3 xl:space-y-4">
+                            <div class="space-y-3 sm:space-y-4 xl:space-y-5">
+                                <div class="w-10 sm:w-12 xxl:w-16 h-10 sm:h-12 xxl:h-16 inline-flex items-center justify-center">
+                                    <img src="../images/icons/pricing.svg" alt="icon"/>
+                                </div>
+                                <h4 class="text-base xl:text-xl font-medium text-thameThreePrimary">
+                                    Transparent Pricing
+                                </h4>
+                            </div>
+                            <p class="text-base font-normal text-thameThreetextSecondary">
+                                Check out our relaxed finance department, focused on finding effective financial solutions that maximize your savings.
+                            </p>
+                        </div>
+                        <div class="space-y-2 sm:space-y-3 xl:space-y-4">
+                            <div class="space-y-3 sm:space-y-4 xl:space-y-5">
+                                <div class="w-10 sm:w-12 xxl:w-16 h-10 sm:h-12 xxl:h-16 inline-flex items-center justify-center">
+                                    <img src="../images/icons/service.svg" alt="icon"/>
+                                </div>
+                                <h4 class="text-base xl:text-xl font-medium text-thameThreePrimary">
+                                    Expert Car Service
+                                </h4>
+                            </div>
+                            <p class="text-base font-normal text-thameThreetextSecondary">
+                                Explore our friendly finance team, committed to delivering creative financial solutions that put more money back in your pocket.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions & Ansewr -->
+    <section class="pb-10 sm:pb-15 lg:pb-20 xl:pb-25 2xl:pb-40">
+        <div class="main-container">
+            <div class="bg-thameThreeWhiteLight 2xl:px-30 xl:px-20 lg:px-15 px-5 xl:py-20 lg:py-15 py-10 rounded-3xl space-y-16">
+                <div class="space-y-4 text-center 4xl:w-7/12 2xl:w-3/4 xl:w-9/12 sm:w-11/12 w-full mx-auto">
+                    <h2 class="text-thThreePrimary 2xl:text-4xxl sm:text-4xl xsm:text-3xl text-2xl font-semibold">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-thThreeSecondary 2xl:text-base text-sm">
+                        Check out the FAQ at Elite Motors for quick answers to your questions. With over 800 million listings and trusted dealer reviews, we help you find the best cars and deals daily.
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden" open="">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>What is the duration of the free trial for our car services?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>Can I get a refund if I'm not satisfied with my car purchase?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>What is the price range for the vehicles we offer?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>Who are the potential customers for our car dealership?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>What is slothUI in the context of a car dealership?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                    <details class="group open:border open:border-thameThreeSecondary/50 rounded-xl overflow-hidden">
+                        <summary class="text-thThreePrimary 2xl:text-base text-sm font-semibold flex justify-between items-center gap-2 cursor-pointer px-4 sm:px-6 py-4 sm:py-6 bg-white group-open:bg-thameThreeSecondary/20">
+                            <!-- Your SVG icon -->
+                            <div class="flex justify-start items-center gap-2">
+                                <img class="min-w-4 sm:w-5 w-4 sm:h-5 h-4 rounded-5" src="../images/icons/qes.svg" alt="logo"/>
+                                <span>How long does it typically take to process a car purchase?</span>
+                            </div>
+                            <img class="size-4 inline-flex justify-center items-center group-open:rotate-180" src="../images/icons/up-down.svg" alt="icon"/>
+                        </summary>
+                        <div class="text-bannerText 2xl:text-base text-sm px-8 pb-4 bg-thameThreeSecondary/20">
+                            Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our clients -->
+    <section class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-40 bg-thameThreePrimary">
+        <div class="main-container">
+            <div class="w-11/12 mx-auto">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-start">
+                    <div class="max-w-162.5 w-full lg:w-4.08/12">
+                        <!-- Title -->
+                        <h2 class="secendery-title text-white lg:w-80 xl:w-100 2xl:w-115 mb-5 lg:mb-8 xl:mb-12">
+                            Here's what our clients are saying about us!
+                        </h2>
+                        <div class="relative w-45 xl:w-55 h-45 xl:h-55 flex items-center justify-center mx-auto lg:mx-0">
+                            <!-- SVG Circle -->
+                            <svg class="w-full h-full -rotate-90 stroke-white/50" viewBox="0 0 100 100">
+                                <!-- Background circle -->
+                                <circle cx="50" cy="50" r="42" stroke="" stroke-width="10" fill="none" />
+
+                                <!-- Progress circle -->
+                                <!-- stroke-dasharray = 2 × 3.14 × 42 ≈ 264 (2πr) -->
+                                <!-- stroke-dashoffset = {stroke-dasharray × (1 - rating/totalRating)} -->
+                                <circle cx="50" cy="50" r="42" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="26" />
+                            </svg>
+
+                            <!-- Center Content -->
+                            <div class="absolute text-center text-white space-y-0.5 xl:space-y-1">
+                                <p class="text-xs xl:text-sm font-normal">Overral Rating</p>
+                                <p class="text-2xl xl:text-3xl font-semibold leading-tight">4.5</p>
+                                <p class="text-xs xl:text-sm font-normal">Out of 5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full lg:w-3/5 mt-12 lg:mt-6">
+                        <!-- Our Clients Slider  -->
+                        <div class="relative">
+                            <div class="w-full swiper ourClient pb-6">
+                                <div class="swiper-wrapper">
+                                    <!-- Client -->
+                                    <div class="swiper-slide space-y-5">
+                                        <div class="flex flex-col xsm:flex-row xsm:items-center gap-3">
+                                            <!-- Sters -->
+                                            <img class="w-fit" src="../images/icons/star.svg" alt="icon"/>
+                                            <!-- Verified -->
+                                            <div class="flex items-center gap-2 w-fit">
+                                                <img class="w-4 sm:w-6 h-4 sm:h-6" src="../images/icons/verified-check.svg" alt="icon"/>
+                                                <p class="text-sm sm:text-base font-normal text-thameThreeWhiteLight">
+                                                    Verified
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <!-- Name -->
+                                            <div class="space-y-1">
+                                                <h5 class="text-base sm:text-lg 2xl:text-xl font-medium text-white">
+                                                    Zyphoria
+                                                </h5>
+                                                <p class="text-xs sm:text-sm font-normal text-thameThreeWhiteLight">
+                                                    Designer
+                                                </p>
+                                            </div>
+                                            <p class="text-base xsm:text-lg sm:text-xl 2xl:text-2xl font-medium text-white">
+                                                I wholeheartedly recommend Macklin Motors Nissan Glasgow South to anyone looking for a car. My experience with Patrick, the salesman, and the entire team was exceptional!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Client -->
+                                    <div class="swiper-slide space-y-5">
+                                        <div class="flex flex-col xsm:flex-row xsm:items-center gap-3">
+                                            <!-- Sters -->
+                                            <img class="w-fit" src="../images/icons/star.svg" alt="icon"/>
+                                            <!-- Verified -->
+                                            <div class="flex items-center gap-2 w-fit">
+                                                <img class="w-4 sm:w-6 h-4 sm:h-6" src="../images/icons/verified-check.svg" alt="icon"/>
+                                                <p class="text-sm sm:text-base font-normal text-thameThreeWhiteLight">
+                                                    Verified
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <!-- Name -->
+                                            <div class="space-y-1">
+                                                <h5 class="text-base sm:text-lg 2xl:text-xl font-medium text-white">
+                                                    Zyphoria
+                                                </h5>
+                                                <p class="text-xs sm:text-sm font-normal text-thameThreeWhiteLight">
+                                                    Designer
+                                                </p>
+                                            </div>
+                                            <p class="text-base xsm:text-lg sm:text-xl 2xl:text-2xl font-medium text-white">
+                                                I wholeheartedly recommend Macklin Motors Nissan Glasgow South to anyone looking for a car. My experience with Patrick, the salesman, and the entire team was exceptional!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Client -->
+                                    <div class="swiper-slide space-y-5">
+                                        <div class="flex flex-col xsm:flex-row xsm:items-center gap-3">
+                                            <!-- Sters -->
+                                            <img class="w-fit" src="../images/icons/star.svg" alt="icon"/>
+                                            <!-- Verified -->
+                                            <div class="flex items-center gap-2 w-fit">
+                                                <img class="w-4 sm:w-6 h-4 sm:h-6" src="../images/icons/verified-check.svg" alt="icon"/>
+                                                <p class="text-sm sm:text-base font-normal text-thameThreeWhiteLight">
+                                                    Verified
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <!-- Name -->
+                                            <div class="space-y-1">
+                                                <h5 class="text-base sm:text-lg 2xl:text-xl font-medium text-white">
+                                                    Zyphoria
+                                                </h5>
+                                                <p class="text-xs sm:text-sm font-normal text-thameThreeWhiteLight">
+                                                    Designer
+                                                </p>
+                                            </div>
+                                            <p class="text-base xsm:text-lg sm:text-xl 2xl:text-2xl font-medium text-white">
+                                                I wholeheartedly recommend Macklin Motors Nissan Glasgow South to anyone looking for a car. My experience with Patrick, the salesman, and the entire team was exceptional!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Client -->
+                                    <div class="swiper-slide space-y-5">
+                                        <div class="flex flex-col xsm:flex-row xsm:items-center gap-3">
+                                            <!-- Sters -->
+                                            <img class="w-fit" src="../images/icons/star.svg" alt="icon"/>
+                                            <!-- Verified -->
+                                            <div class="flex items-center gap-2 w-fit">
+                                                <img class="w-4 sm:w-6 h-4 sm:h-6" src="../images/icons/verified-check.svg" alt="icon"/>
+                                                <p class="text-sm sm:text-base font-normal text-thameThreeWhiteLight">
+                                                    Verified
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <!-- Name -->
+                                            <div class="space-y-1">
+                                                <h5 class="text-base sm:text-lg 2xl:text-xl font-medium text-white">
+                                                    Zyphoria
+                                                </h5>
+                                                <p class="text-xs sm:text-sm font-normal text-thameThreeWhiteLight">
+                                                    Designer
+                                                </p>
+                                            </div>
+                                            <p class="te flex-col xsm:flex-rowxxsm:t-base xsm:text-lg sm:text-xl 2xl:text-2xl font-medium text-white">
+                                                I wholeheartedly recommend Macklin Motors Nissan Glasgow South to anyone looking for a car. My experience with Patrick, the salesman, and the entire team was exceptional!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Client -->
+                                    <div class="swiper-slide space-y-5">
+                                        <div class="flex items-center gap-3">
+                                            <!-- Sters -->
+                                            <img class="w-fit" src="../images/icons/star.svg" alt="icon"/>
+                                            <!-- Verified -->
+                                            <div class="flex items-center gap-2 w-fit">
+                                                <img class="w-4 sm:w-6 h-4 sm:h-6" src="../images/icons/verified-check.svg" alt="icon"/>
+                                                <p class="text-sm sm:text-base font-normal text-thameThreeWhiteLight">
+                                                    Verified
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <!-- Name -->
+                                            <div class="space-y-1">
+                                                <h5 class="text-base sm:text-lg 2xl:text-xl font-medium text-white">
+                                                    Zyphoria
+                                                </h5>
+                                                <p class="text-xs sm:text-sm font-normal text-thameThreeWhiteLight">
+                                                    Designer
+                                                </p>
+                                            </div>
+                                            <p class="text-base xsm:text-lg sm:text-xl 2xl:text-2xl font-medium text-white">
+                                                I wholeheartedly recommend Macklin Motors Nissan Glasgow South to anyone looking for a car. My experience with Patrick, the salesman, and the entire team was exceptional!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slider next & prev button -->
+                            <div class="button-next absolute z-10 top-0 right-16 xl:right-21 w-12 xl:w-15 h-8 xl:h-11 rounded-3xl bg-thameThreeSecondary text-white inline-flex items-center justify-center aria-disabled:bg-white aria-disabled:text-thameThreePrimary">
+                                <svg class="fill-current" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 6C0 5.76 0.0933333 5.56 0.28 5.4L5.44 0.240001C5.6 0.0799999 5.79333 0 6.02 0C6.24667 0 6.44667 0.0799999 6.62 0.240001C6.79333 0.400001 6.88 0.6 6.88 0.84C6.88 1.08 6.78667 1.28 6.6 1.44L2.04 6L6.6 10.56C6.76 10.72 6.84 10.92 6.84 11.16C6.84 11.4 6.76 11.6 6.6 11.76C6.44 11.92 6.24667 12 6.02 12C5.79333 12 5.6 11.92 5.44 11.76L0.28 6.6C0.0933333 6.44 0 6.24 0 6Z" fill=""/>
+                                </svg>
+                            </div>
+                            <div class="button-prev absolute z-10 top-0 right-0 w-12 xl:w-15 h-8 xl:h-11 rounded-3xl bg-thameThreeSecondary text-white inline-flex items-center justify-center aria-disabled:bg-white aria-disabled:text-thameThreePrimary">
+                                <svg class="fill-current" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.88 6C6.88 5.76 6.78667 5.56 6.6 5.4L1.44 0.240001C1.28 0.0799999 1.08667 0 0.860005 0C0.633338 0 0.433338 0.0799999 0.260005 0.240001C0.0866718 0.400001 5.24521e-06 0.6 5.24521e-06 0.84C5.24521e-06 1.08 0.0933385 1.28 0.280005 1.44L4.84 6L0.280005 10.56C0.120005 10.72 0.0400052 10.92 0.0400052 11.16C0.0400052 11.4 0.120005 11.6 0.280005 11.76C0.440005 11.92 0.633338 12 0.860005 12C1.08667 12 1.28 11.92 1.44 11.76L6.6 6.6C6.78667 6.44 6.88 6.24 6.88 6Z" fill=""/>
+                                </svg>
+                            </div>
+                            <!-- Slider pagination -->
+                            <div class="pagination flex items-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Have more questions -->
+    <section class="py-10 sm:py-15 lg:py-20 xl:py-25 2xl:py-40">
+        <div class="main-container">
+            <div class="w-11/12 mx-auto">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-center space-y-10 lg:space-y-0">
+                    <div class="max-w-162.5 w-full lg:w-5.4/12">
+                        <!-- Title -->
+                        <div class="mb-5 lg:mb-8 xl:mb-12">
+                            <h2 class="secendery-title lg:w-95 xl:w-full">
+                                Have more questions? Don't hesitate to reach us
+                            </h2>
+                        </div>
+                        <div class="space-y-8 xxl:space-y-10 w-full">
+                            <div class="flex items-center gap-4">
+                                <img class="w-11 2xl:w-14 h-11 2xl:h-14" src="../images/icons/location.svg" alt="icon" />
+                                <p class="text-base 2xl:text-xl font-normal text-thameThreePrimary lg:w-82.5 2xl:w-full">
+                                    123 Queensberry Street, North Melbourne VIC3051, Australia.
+                                </p>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-3 xl:gap-5">
+                                <a href="tel:76956039999" class="w-fit h-10 xl:h-14 px-5 xl:px-7 py-3 xl:py-4 text-sm xl:text-base font-medium text-thameThreePrimary rounded-full bg-white border border-thameThreetextSecondary flex items-center gap-2 xl:gap-4 duration-300 group hover:bg-thameThreeSecondary hover:text-white hover:border-thameThreeSecondary">
+                                    <svg class="fill-thameThreeSecondary duration-300 group-hover:fill-white" width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.6458 0H2.97917C1.33575 0 0 1.33575 0 2.97917V18.1458C0 19.7893 1.33575 21.125 2.97917 21.125H11.6458C13.2893 21.125 14.625 19.7893 14.625 18.1458V2.97917C14.625 1.33575 13.2893 0 11.6458 0ZM13 18.1458C13 18.8923 12.3923 19.5 11.6458 19.5H2.97917C2.23275 19.5 1.625 18.8923 1.625 18.1458V2.97917C1.625 2.23275 2.23275 1.625 2.97917 1.625H11.6458C12.3923 1.625 13 2.23275 13 2.97917V18.1458ZM9.20833 4.0625C9.20833 4.511 8.84433 4.875 8.39583 4.875H6.22917C5.78067 4.875 5.41667 4.511 5.41667 4.0625C5.41667 3.614 5.78067 3.25 6.22917 3.25H8.39583C8.84433 3.25 9.20833 3.614 9.20833 4.0625Z" fill=""/>
+                                    </svg>
+                                    +76 956 039 999
+                                </a>
+                                <a href="mailto:ali@boxcars.com" class="w-fit h-10 xl:h-14 px-5 xl:px-7 py-3 xl:py-4 text-sm xl:text-base font-medium text-thameThreePrimary rounded-full bg-white border border-thameThreetextSecondary flex items-center gap-2 xl:gap-4 duration-300 group hover:bg-thameThreeSecondary hover:text-white hover:border-thameThreeSecondary">
+                                    <svg class="fill-thameThreeSecondary duration-300 group-hover:fill-white" width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.1458 0H2.97917C1.33575 0 0 1.33575 0 2.97917V13.8125C0 15.4559 1.33575 16.7917 2.97917 16.7917H18.1458C19.7893 16.7917 21.125 15.4559 21.125 13.8125V2.97917C21.125 1.33575 19.7893 0 18.1458 0ZM18.1458 1.625C18.1708 1.625 18.1924 1.638 18.2163 1.63909L11.375 6.77084C10.8962 7.12942 10.2278 7.12942 9.75 6.77084L2.90875 1.63909C2.93367 1.638 2.95425 1.625 2.97917 1.625H18.1458ZM19.5 13.8125C19.5 14.5589 18.8923 15.1667 18.1458 15.1667H2.97917C2.23275 15.1667 1.625 14.5589 1.625 13.8125V2.97917C1.625 2.89575 1.65858 2.82317 1.67267 2.74409L8.775 8.07084C9.3015 8.46517 9.932 8.66234 10.5625 8.66234C11.193 8.66234 11.8246 8.46517 12.35 8.07084L19.4523 2.74409C19.4664 2.82317 19.5 2.89575 19.5 2.97917V13.8125Z" fill=""/>
+                                    </svg>
+                                    ali@boxcars.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <button class="h-11 xl:h-14 px-7 py-4 text-sml xl:text-base font-medium text-white bg-thameThreeSecondary rounded-xl flex items-center gap-4 mt-10 lg:mt-12 xl:mt-16 duration-300 hover:bg-thameThreeSecondaryDark">
+                            Get Started
+                            <svg class="fill-white duration-300" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 0C10.7 0 10.5 0.0999994 10.3 0.299999L0.3 10.3C-0.1 10.7 -0.1 11.3 0.3 11.7C0.7 12.1 1.3 12.1 1.7 11.7L11.7 1.7C12.1 1.3 12.1 0.699999 11.7 0.299999C11.5 0.0999994 11.3 0 11 0Z" fill=""/>
+                                <path d="M11 0H2C1.4 0 1 0.4 1 1C1 1.6 1.4 2 2 2H10V10C10 10.6 10.4 11 11 11C11.6 11 12 10.6 12 10V1C12 0.4 11.6 0 11 0Z" fill=""/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="max-w-190 max-h-150 w-full lg:w-2/5 mx-auto lg:mx-0 lg:ml-auto rounded-2xl sm:rounded-3xl relative z-10 overflow-hidden after:absolute after:w-full after:h-full after:bg-gradient-to-b after:from-thameThreePrimary/10 after:to-thameThreePrimary after:top-0 after:left-0">
+                        <img class="w-full h-full max-w-190 max-h-150 rounded-2xl sm:rounded-3xl" src="../images/questions.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
